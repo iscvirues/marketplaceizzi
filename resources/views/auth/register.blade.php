@@ -15,6 +15,11 @@
             </div>
 
             <div class="mt-4">
+                <x-jet-label for="employeenumb" value="{{ __('Employeenumb') }}" />
+                <x-jet-input id="employeenumb" class="block mt-1 w-full" type="text" name="employeenumb" :value="old('employeenumb')" required autofocus autocomplete="employeenumb" />
+            </div>
+
+            <div class="mt-4">
                 <x-jet-label for="email" value="{{ __('Email') }}" />
                 <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
             </div>
@@ -28,6 +33,10 @@
                 <x-jet-label for="password_confirmation" value="{{ __('Confirm Password') }}" />
                 <x-jet-input id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required autocomplete="new-password" />
             </div>
+
+
+           
+
 
             @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
                 <div class="mt-4">
