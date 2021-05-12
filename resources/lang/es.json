@@ -7,6 +7,9 @@
     "Register": "Registro",
     "Name": "Nombre",
     "Employeenumb": "Número de empleado",
+    "Manage Account":"Administrar Cuenta",
+    "Profile":"Perfil",
+    "Log Out":"Salir",
     "Confirm Password": "Confirmar contraseña",
     "Reset Password": "Restablecer contraseña",
     "Reset Password Notification": "Aviso para restablecer contraseña",
@@ -30,5 +33,9 @@
     "Before proceeding, please check your email for a verification link.": "Antes de poder continuar, por favor, confirma tu correo electrónico con el enlace que te hemos enviado.",
     "If you did not receive the email": "Si no has recibido el email",
     "click here to request another": "pulsa aquí para que te enviemos otro",
-    "All rights reserved.":  "Todos los derechos reservados."
+    "All rights reserved.":  "Todos los derechos reservados.",
+    "Update Password":"Actualizar contraseña",
+    "Update Password text":"Asegúrese de que su cuenta esté usando una contraseña larga y aleatoria para mantenerse seguro.",
+    "Profile Information":"Información del perfil",
+    "Profile Information text":"Actualice la información de perfil y la dirección de correo electrónico de su cuenta."
 }
